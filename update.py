@@ -34,7 +34,7 @@ if len(BOT_TOKEN) == 0:
 
 bot_id = BOT_TOKEN.split(':', 1)[0]
 
-DATABASE_URL = environ.get('DATABASE_URL', 'jkd3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://irlwolf:9aEpUre0fkmBjHVz@cluster0.jkd3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 if len(DATABASE_URL) == 0:
     DATABASE_URL = None
 
